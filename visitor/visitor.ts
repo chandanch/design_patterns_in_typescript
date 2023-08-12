@@ -16,11 +16,11 @@ namespace VisitorPattern {
 
     export class ConcreteVisitor2 implements Visitor {
         public visitConcreteElement1(concreteElement1: ConcreteElement1): void {
-            console.log("`visitConcreteElement1` of ConcreteVisitor2 is being called!");
+            console.log("`visitConcreteElement1` of ConcreteVisitor2 is being called");
         }
 
         public visitConcreteElement2(concreteElement2: ConcreteElement2): void {
-            console.log("`visitConcreteElement2` of ConcreteVisitor2 is being called!");
+            console.log("`visitConcreteElement2` of ConcreteVisitor2 is being called");
         }
     }
 
