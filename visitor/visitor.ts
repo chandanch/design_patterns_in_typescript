@@ -38,7 +38,7 @@ namespace VisitorPattern {
 
     export class ConcreteElement2 implements Element {
         public operate(visitor: Visitor): void {
-            console.log("`operate` of ConcreteElement2 is being called!");
+            console.log("`operate` of ConcreteElement2 is being called");
             visitor.visitConcreteElement2(this);
         }
     }
