@@ -45,6 +45,11 @@ namespace MediatorPattern {
         public receive(msg: string): void {
             console.log(msg, "`receive` of ConcreteColleagueB is being called!");
         }
+
+        public status(id: number): string {
+            return `${id} Status is complete`
+        }
+            
     }
 
     export class ConcreteMediator implements Mediator {
